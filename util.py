@@ -42,11 +42,7 @@ def parse_html_url(html):
                 urls.append(url)
     return urls
 
-# def extract_text_from_html(html_content):
-#     # input needs to be  ---> part.get_payload(decode=True).decode('latin-1')
-#     # cannot be str
-#     soup = BeautifulSoup(html_content, 'html.parser')
-#     return soup.get_text()
+
 
 def extract_email_content(message):
     try:
@@ -84,14 +80,7 @@ def predict_url(urls, model, scaler):
         return None
 
 
-# Example usage:
-# url_to_predict = "https://example.com"
-# url_prediction = predict_url(url_to_predict)
-#
-# if url_prediction is not None:
-#     print(f"Prediction for URL '{url_to_predict}': {url_prediction}")
-# else:
-#     print("Prediction failed.")
+
 
 def vectorize_text(text, vectorizer):
     vectorized_text = vectorizer.transform([text])
@@ -114,13 +103,4 @@ def predict_email(text, model, vectorizer):
         print(f"An error occurred: {str(e)}")
         return None
 
-
-# Example usage:
-# email_content_to_predict = "This is an example email content."
-# email_prediction = predict_email(email_content_to_predict)
-#
-# if email_prediction is not None:
-#     print(f"Prediction for email content: {email_prediction}")
-# else:
-#     print("Prediction failed.")
 
