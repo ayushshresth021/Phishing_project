@@ -1,6 +1,6 @@
 # Phishing_project
 
-Our approach to combat this problem of phishing is to detect these emails using trained Machine Learning models to determine whether it believes it’s a phishing email or not.
+Our approach to combat the problem of phishing by detecting these emails using trained Machine Learning models to determine whether it believes it’s a phishing email or not.
 
 **Architecture, Design, and Key Algorithm**
 
