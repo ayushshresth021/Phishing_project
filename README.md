@@ -5,14 +5,19 @@ Our approach to combat this problem of phishing is to detect these emails using 
 **Architecture, Design, and Key Algorithm**
 
 **Phishing Email Detection Models**<br>
-  Algorithms: Logistic Regression, Random Forests Classifier, Naive Bayes Classifier (Gaussian)<br>
-  Datasets: Kaggle and https://monkey.org/~jose/phishing/<br>
-  Feed vectorized text into the machine learning models<br>
-  Email text extractor<br>
+<ul>
+ <li> Algorithms: Logistic Regression, Random Forests Classifier, Naive Bayes Classifier (Gaussian)</li>
+ <li> Datasets: Kaggle and https://monkey.org/~jose/phishing/</li>
+ <li> Feed vectorized text into the machine learning models</li>
+<li> Email text extractor</li>
+</ul>  
+  
 **Phishing URL Detection Models**<br>
-  Algorithms: Logistic Regression, Random Forests Classifier, Naive Bayes Classifier (Gaussian), Feedforward Neural Network<br>
-  Dataset: Kaggle<br>
-  Feed a vector of 10 features into the machine learning models<br>
+<ul>
+ <li> Algorithms: Logistic Regression, Random Forests Classifier, Naive Bayes Classifier (Gaussian), Feedforward Neural Network</li>
+ <li> Dataset: Kaggle</li>
+ <li> Feed a vector of 10 features into the machine learning models</li>
+</ul>
 Tools: <br>
 Python, Scikit-learn, Pandas, and Numpy libraries<br>
 
